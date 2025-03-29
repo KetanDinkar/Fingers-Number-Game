@@ -105,7 +105,7 @@ def main():
     while not rl.window_should_close():
         rl.update_music_stream(bgm)  # Update the music stream
 
-        
+        print(f"Finger count {finger_count}")
 
         if not game_started:
             
